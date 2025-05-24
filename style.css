@@ -79,7 +79,7 @@ background-color: rgba(30, 10, 50, 0.5);
 .search-bar {
   padding: 12px 25px;
   border-radius: 25px;
-  border: none;
+  border: 1px solid var(--clr-card-border);
   width: 300px;
   font-size: 1.05rem;
   background-color: var(--clr-search-bg);
@@ -184,13 +184,19 @@ background-color: rgba(30, 10, 50, 0.5);
   text-decoration: none;
 }
 .sidebar nav ul li img {
-  filter: brightness(0) invert(1);
+  filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
+  transition: filter 0.3s ease;
+}
+
+.sidebar nav ul li a:hover img {
+  filter: brightness(0) saturate(100%) invert(53%) sepia(100%) saturate(7486%) hue-rotate(152deg) brightness(106%) contrast(114%);
 }
 
 .sidebar nav ul li a:hover {
   background-color: var(--clr-hover-bg);
   color: var(--clr-hover-text);
 }
+
 
 .main {
   display: grid;
@@ -270,20 +276,61 @@ background-color: rgba(30, 10, 50, 0.5);
   list-style: none;
   padding-left: 0;
   color: var(--clr-text-sub);
+  max-width: 300px; 
 }
 
 .trending-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px; 
   margin-bottom: 10px;
   cursor: pointer;
   padding: 6px 10px;
   border-radius: 8px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .trending-list li:hover {
   background-color: var(--clr-hover-bg);
   color: var(--clr-hover-text);
 }
+
+.trending-list img {
+  width: 24px;  
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px; 
+  user-select: none;  
+  pointer-events: none; 
+}
+
+
+.card {
+  position: relative; 
+  overflow: hidden;
+}
+
+.card-icons {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  display: flex;
+  gap: 10px;
+  filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
+}
+
+.card-icons img {
+  width: 1.3rem;  
+  height: auto;   
+  filter: brightness(0) invert(1); 
+  cursor: pointer; 
+  transition: filter 0.3s ease;
+}
+
+.card-icons img:hover {
+  filter: brightness(0) invert(1) drop-shadow(0 0 5px cyan); 
+}
+
 
 /* Mobil först (max 600px) */
 @media (max-width: 600px) {
