@@ -66,6 +66,7 @@ html, body {
     var(--svg-pattern-dots),
     linear-gradient(135deg, var(--clr-bg-dark) 0%, var(--clr-bg-gradient-1) 30%, var(--clr-bg-gradient-2) 65%, var(--clr-bg-gradient-3) 100%);
   color: var(--clr-text-main);
+
 }
 
 .container {
@@ -75,7 +76,7 @@ html, body {
   grid-template-areas:
     "sidebar header"
     "sidebar main";
-  min-height: 100vh;
+min-height: 100vh;
 }
 
 .header {
@@ -229,7 +230,7 @@ html, body {
   grid-area: main;
   grid-template-columns: 3fr 1fr;
   gap: 20px;
-  padding: 30px 40px;
+  padding: 10px 20px;
   background-color: var(--clr-main-bg);
   overflow-y: auto;
   height: 100%;
