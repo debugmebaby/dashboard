@@ -116,11 +116,19 @@ background-color: rgba(30, 10, 50, 0.5);
  border: 3px solid var(--clr-card-border);
 }
 
+.notification-icon {
+   cursor: pointer;
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
+}
+
 .user-buttons {
   display: flex;
   gap: 10px;
   background-color: transparent;
-  color: var(--clr-hover-text);
+  color: var(--clr-text-sub);
 }
 
 .user-buttons button {
@@ -128,7 +136,7 @@ background-color: rgba(30, 10, 50, 0.5);
   border: none;
   border-radius: 6px;
   background-color: var(--clr-button-bg);
-  color: var(--clr-hover-text);
+  color: var(--clr-text-sub);
   font-weight: 700;
   cursor: pointer;
   box-shadow: 0 3px 8px var(--clr-button-shadow);
