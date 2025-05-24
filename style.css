@@ -1,34 +1,35 @@
 :root {
-  --clr-bg-dark: #231942; 
-  --clr-bg-gradient-1: #392a5f; 
-  --clr-bg-gradient-2: #5c3e85; 
-  --clr-bg-gradient-3: #8c60b3; 
+  --clr-bg-dark: #010108; 
+  --clr-bg-gradient-1: #03030F; 
+  --clr-bg-gradient-2: #06061A; 
+  --clr-bg-gradient-3: #0A0A2A; 
 
-  --clr-sidebar-bg: rgba(57, 42, 95, 0.75);
-  --clr-main-bg: rgba(35, 25, 66, 0.3);
-  --clr-card-bg: rgba(57, 42, 95, 0.7);
-  --clr-card-border: rgb(255 240 0 / 70%);
-  --clr-card-hover-shadow: rgba(243, 227, 9, 0.3);
-  --clr-card-hover-glow: rgba(238, 205, 16, 0.15);
+  --clr-sidebar-bg: rgba(10, 10, 42, 0.82); 
+  --clr-main-bg: rgba(1, 1, 8, 0.66);    
+  --clr-card-bg: rgba(16, 16, 60, 0.72);
 
-  --clr-text-main: #f8f7ff; 
-  --clr-text-sub: #d8cfff;  
-  --clr-text-highlight: #c5b119; 
+  --clr-card-border: rgba(0, 255, 255, 0.55); 
+  --clr-card-hover-shadow: rgba(100, 255, 255, 0.33);
+  --clr-card-hover-glow: rgba(200, 255, 255, 0.22);
 
-  --clr-header-gradient-1: rgba(92, 62, 133, 0.75);
-  --clr-header-gradient-2: rgba(57, 42, 95, 0.8);
+  --clr-text-main: #E0E0FF; 
+  --clr-text-sub: #B0B0F0;  
+  --clr-text-highlight: #9F00FF; 
 
-  --clr-search-bg: rgba(35, 25, 66, 0.75);
-  --clr-search-focus-bg: rgba(57, 42, 95, 0.85);
-  --clr-search-shadow: var(--clr-text-highlight);
+  --clr-header-gradient-1: rgba(16, 16, 60, 0.78); 
+  --clr-header-gradient-2: rgba(10, 10, 42, 0.88);    
 
-  --clr-button-bg: rgba(140, 96, 179, 0.7); 
-  --clr-button-hover-bg: rgba(170, 120, 200, 0.85);
-  --clr-button-shadow: rgba(92, 62, 133, 0.6);
-  --clr-button-hover-shadow: rgba(140, 96, 179, 0.9);
+  --clr-search-bg: rgba(1, 1, 8, 0.82);
+  --clr-search-focus-bg: rgba(10, 10, 42, 0.9);
+  --clr-search-shadow: #00FFFF;
 
-  --clr-hover-bg: rgba(220, 200, 255, 0.35); 
-  --clr-hover-text: #ffffff;
+  --clr-button-bg: rgba(68, 0, 136, 0.6); 
+  --clr-button-hover-bg: rgba(159, 0, 255, 0.45);
+  --clr-button-shadow: rgba(159, 0, 255, 0.2);
+  --clr-button-hover-shadow: rgba(0, 255, 255, 0.3);
+
+  --clr-hover-bg: rgba(0, 255, 255, 0.1); 
+  --clr-hover-text: #F0FFFF;
 }
 
 * {
