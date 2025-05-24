@@ -80,7 +80,7 @@ background-color: rgba(30, 10, 50, 0.5);
   padding: 12px 25px;
   border-radius: 25px;
   border: 1px solid var(--clr-card-border);
-  width: 300px;
+  width: 375px;
   font-size: 1.05rem;
   background-color: var(--clr-search-bg);
   color: var(--clr-text-sub);
@@ -118,8 +118,7 @@ background-color: rgba(30, 10, 50, 0.5);
 
 .notification-icon {
    cursor: pointer;
-  width: 24px;
-  height: 24px;
+  height: 1.4rem;
   margin-right: 7px;
 filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
 }
