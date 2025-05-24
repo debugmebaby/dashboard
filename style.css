@@ -106,14 +106,14 @@ background-color: rgba(30, 10, 50, 0.5);
   align-items: center;
   gap: 10px;
   font-size: 0.9rem;
-  color: var(--clr-hover-text);
+  color: var(--clr-text-sub);
 }
 
 .avatar {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid var(--clr-hover-text);
+ border: 3px solid var(--clr-card-border);
 }
 
 .user-buttons {
@@ -226,6 +226,8 @@ background-color: rgba(30, 10, 50, 0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1.5px solid var(--clr-card-border);
   backdrop-filter: saturate(150%) blur(12px);
+   position: relative; 
+  overflow: hidden;
 }
 
 .card:hover {
@@ -302,12 +304,6 @@ background-color: rgba(30, 10, 50, 0.5);
   border-radius: 4px; 
   user-select: none;  
   pointer-events: none; 
-}
-
-
-.card {
-  position: relative; 
-  overflow: hidden;
 }
 
 .card-icons {
