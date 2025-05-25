@@ -204,14 +204,24 @@ html, body {
 }
 
 .sidebar h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin-bottom: 0.6rem; 
   color: var(--clr-text-highlight);
-  text-shadow: 0 0.06rem 0.125rem rgba(0, 0, 0, 0.5); 
+  text-shadow: 0 0.06rem 0.125rem rgba(0, 0, 0, 0.5);
+   display: flex;           
+  align-items: center;      
+  gap: 0.5rem;   
+}
+
+.sidebar h2 img {
+  height: 1.8rem;
+  object-fit: contain;
+filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
+  transition: filter 0.3s ease;
 }
 
 .sidebar img {
-  height: 1.4rem;
+  height: 2rem;
 }
 
 .sidebar nav ul  {
