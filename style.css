@@ -285,6 +285,8 @@ html, body {
 
 .events-section,
 .trending-section {
+  gap:4px;
+  display:grid;
   border-radius: 0.75rem; 
   padding: 1.25rem; 
   background: var(--clr-card-bg);
