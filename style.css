@@ -16,39 +16,37 @@
     font-display: swap;
 }
 
-
 :root {
-  --clr-bg-dark: #010108;
-  --clr-bg-gradient-1: #03030F;
-  --clr-bg-gradient-2: #06061A;
-  --clr-bg-gradient-3: #0A0A2A;
+  --clr-bg-dark: #080C18;
+  --clr-bg-gradient-1: #0B1020;
+  --clr-bg-gradient-2: #0F1528;
+  --clr-bg-gradient-3: #131A30;
 
-  --clr-sidebar-bg: rgba(10, 10, 42, 0.82);
-  --clr-main-bg: rgba(1, 1, 8, 0.66);
-  --clr-card-bg: rgba(16, 16, 60, 0.72);
+  --clr-sidebar-bg: rgba(20, 28, 48, 0.87);
+  --clr-main-bg: rgba(8, 12, 24, 0.75);
+  --clr-card-bg: rgba(26, 32, 54, 0.8);
+  
+  --clr-text-main: #EAFBFF;
+  --clr-text-sub: #B8C6E0;
+  --clr-text-highlight: #ADC8FF;
 
-  --clr-card-border: rgba(0, 255, 255, 0.55);
-  --clr-card-hover-shadow: rgba(100, 255, 255, 0.33);
-  --clr-card-hover-glow: rgba(200, 255, 255, 0.22);
+  --clr-header-gradient-1: rgba(26, 32, 54, 0.82);
+  --clr-header-gradient-2: rgba(20, 28, 48, 0.92);
+  --clr-search-bg: rgba(10, 15, 30, 0.88);
+  --clr-search-focus-bg: rgba(28, 36, 60, 0.94);
 
-  --clr-text-main: #E0E0FF;
-  --clr-text-sub: #B0B0F0;
-  --clr-text-highlight: #9F00FF;
+  --clr-card-border: rgba(173, 200, 255, 0.6);
+  --clr-card-hover-shadow: rgba(173, 200, 255, 0.38);
+  --clr-card-hover-glow: rgba(200, 220, 255, 0.28);
+  --clr-search-shadow: #ADC8FF;
 
-  --clr-header-gradient-1: rgba(16, 16, 60, 0.78);
-  --clr-header-gradient-2: rgba(10, 10, 42, 0.88);
-
-  --clr-search-bg: rgba(1, 1, 8, 0.82);
-  --clr-search-focus-bg: rgba(10, 10, 42, 0.9);
-  --clr-search-shadow: #00FFFF;
-
-  --clr-button-bg: rgba(68, 0, 136, 0.6);
-  --clr-button-hover-bg: rgba(159, 0, 255, 0.45);
-  --clr-button-shadow: rgba(159, 0, 255, 0.2);
-  --clr-button-hover-shadow: rgba(0, 255, 255, 0.3);
-
-  --clr-hover-bg: rgba(0, 255, 255, 0.1);
-  --clr-hover-text: #F0FFFF;
+  --clr-button-bg: rgba(110, 140, 230, 0.7);
+  --clr-button-hover-bg: rgba(140, 165, 240, 0.6);
+  --clr-button-shadow: rgba(140, 165, 240, 0.28);
+  --clr-button-hover-shadow: rgba(173, 200, 255, 0.35);
+  
+  --clr-hover-bg: rgba(173, 200, 255, 0.15);
+  --clr-hover-text: #F5FAFF;
 }
 
 * {
