@@ -286,6 +286,27 @@ html, body {
   box-shadow: 0 0.625rem 1.5625rem var(--clr-card-hover-shadow), 0 0 0.9375rem var(--clr-card-hover-glow); /* 0 10px 25px, 0 0 15px */
 }
 
+.card-icons {
+  position: absolute;
+  bottom: 0.75rem; 
+  right: 0.75rem; 
+  display: flex;
+  gap: 0.625rem; 
+  filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
+}
+
+.card-icons img {
+  width: 1.7rem;
+  height: auto;
+  filter: brightness(0) invert(1);
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
+
+.card-icons img:hover {
+  filter: brightness(0) invert(1) drop-shadow(0 0 0.3125rem cyan); 
+}
+
 .card h3 {
   margin-bottom: 0.6rem; 
   font-weight: 700;
@@ -365,28 +386,6 @@ h1, h2, .card h3 {
   user-select: none;
   pointer-events: none;
 }
-
-.card-icons {
-  position: absolute;
-  bottom: 0.75rem; 
-  right: 0.75rem; 
-  display: flex;
-  gap: 0.625rem; 
-  filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
-}
-
-.card-icons img {
-  width: 1.4rem;
-  height: auto;
-  filter: brightness(0) invert(1);
-  cursor: pointer;
-  transition: filter 0.3s ease;
-}
-
-.card-icons img:hover {
-  filter: brightness(0) invert(1) drop-shadow(0 0 0.3125rem cyan); 
-}
-
 
 /* Mobil först (max 600px) */
 @media (max-width: 37.5rem) { 
