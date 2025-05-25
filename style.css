@@ -129,7 +129,7 @@ html, body {
   height: 1.4rem;
   opacity: 0.6;
   pointer-events: none;
-   filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
+  filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
 }
 
 
@@ -163,9 +163,15 @@ html, body {
 .notification-icon {
   cursor: pointer;
   height: 1.4rem;
-  margin-right: 0.4rem; 
   filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
+  transition: filter 0.3s ease, transform 0.2s ease;
 }
+
+.notification-icon:hover {
+  transform: scale(1.2);
+  filter: brightness(0) saturate(100%) invert(53%) sepia(100%) saturate(7486%) hue-rotate(152deg) brightness(106%) contrast(114%);
+}
+
 
 .user-buttons {
   display: flex;
@@ -216,7 +222,7 @@ html, body {
 .sidebar h2 img {
   height: 1.8rem;
   object-fit: contain;
-filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
+  filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
   transition: filter 0.3s ease;
 }
 
@@ -302,19 +308,18 @@ filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-r
   right: 0.75rem; 
   display: flex;
   gap: 0.625rem; 
-  filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
 }
 
 .card-icons img {
   width: 1.7rem;
   height: auto;
-  filter: brightness(0) invert(1);
+  filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
   cursor: pointer;
   transition: filter 0.3s ease;
 }
 
 .card-icons img:hover {
-  filter: brightness(0) invert(1) drop-shadow(0 0 0.3125rem cyan); 
+  filter: brightness(0) saturate(100%) invert(53%) sepia(100%) saturate(7486%) hue-rotate(152deg) brightness(106%) contrast(114%);
 }
 
 .card h3 {
