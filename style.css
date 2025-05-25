@@ -108,6 +108,29 @@ html, body {
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-bar {
+  padding-left: 1rem; 
+}
+
+.search-icon {
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.4rem;
+  height: 1.4rem;
+  opacity: 0.6;
+  pointer-events: none;
+   filter: brightness(0) saturate(100%) invert(82%) sepia(17%) saturate(600%) hue-rotate(205deg) brightness(94%) contrast(88%);
+}
+
+
 .search-bar:focus {
   outline: none;
   background-color: var(--clr-search-focus-bg);
